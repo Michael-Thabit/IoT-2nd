@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: IoT-2nd
+  host: IoT-2nd
+  disk_quota: 1024M
+  services:
+  - IoT-2nd-cloudantNoSQLDB
+  - IoT-2nd-iotf-service
